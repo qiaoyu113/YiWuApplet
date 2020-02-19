@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/creatOrder/creatOrder",
+    "pages/attestationWait/attestationWait",
+    "pages/lookTrack/lookTrack",
+    "pages/authentication/authentication",
+    "pages/myCenter/myCenter",
+    "pages/tailAfter/tailAfter",
+    "pages/login/login",
+    "pages/addressBook/addressBook",
+    "pages/orderDetail/orderDetail",
+    "pages/freightTotal/freightTotal",
+    "pages/freightFinish/freightFinish",
+    "pages/addressBookList/addressBookList",
+    "components/table/table",
+    "pages/personalInfo/personalInfo",
+    "pages/myService/myService",
+    "pages/commonQuestion/commonQuestion",
+    "pages/feekbackQuestion/feekbackQuestion",
+    "components/etable/etable"
+  ],
+  "usingComponents": {
+    "component-log": "components/logs/logs",
+    "hint": "components/hint/hint",
+    "etable": "components/etable/etable",
+    "popup": "components/popup/popup",
+    "van-tab": "miniprogram_npm/vant-weapp/tab/index",
+    "van-icon": "miniprogram_npm/vant-weapp/icon/index",
+    "ec-canvas": "../../ec-canvas/ec-canvas",
+    "c-table": "components/table/table",
+    "van-loading": "miniprogram_npm/vant-weapp/loading/index",
+    "van-tabs": "miniprogram_npm/vant-weapp/tabs/index",
+    "van-popup": "miniprogram_npm/vant-weapp/popup/index",
+    "van-dialog": "miniprogram_npm/vant-weapp/dialog/index",
+    "van-notify": "miniprogram_npm/vant-weapp/notify/index",
+    "van-toast": "miniprogram_npm/vant-weapp/toast/index",
+    "van-datetime-picker": "miniprogram_npm/vant-weapp/datetime-picker/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationStyle": "default",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "义乌好运",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#7885f8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "lib/image/icon1_1.png",
+        "iconPath": "lib/image/icon1.png",
+        "pagePath": "pages/index/index",
+        "text": "订单大厅"
+      },
+      {
+        "selectedIconPath": "lib/image/icon2_1.png",
+        "iconPath": "lib/image/icon2.png",
+        "pagePath": "pages/creatOrder/creatOrder",
+        "text": "创建订单"
+      },
+      {
+        "selectedIconPath": "lib/image/icon3_1.png",
+        "iconPath": "lib/image/icon3.png",
+        "pagePath": "pages/myCenter/myCenter",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wxee64afb2a75b49b6"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {
+    "chooseLocation": {
+      "version": "1.0.2",
+      "provider": "wx76a9a06e5b4e693e"
+    }
+  }
+}

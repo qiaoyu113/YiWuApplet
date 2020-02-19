@@ -1,0 +1,41 @@
+/**app.wxss**/
+@import "lib/css/iconfont.wxss";
+@import "colorui.wxss";
+@import "miniprogram_npm/vant-weapp/common/index.wxss";
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.hindBg {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.50);
+  z-index: 99;
+}
+
+.noMore{
+  width: 100%;
+  height: 300rpx;
+  line-height: 300rpx;
+  text-align: center;
+  color: #40464a !important;
+  font-size: 13px;
+}
+
+[class*="van-icon-"] {
+    font-family: "vant-icon" !important;
+    font-size: inherit;
+    font-style: normal;
+}
